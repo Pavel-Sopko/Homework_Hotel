@@ -16,6 +16,8 @@ public class Room {
         this.seaView = seaView;
     }
 
+
+
     public int getNumber() {
         return number;
     }
@@ -54,5 +56,8 @@ public class Room {
 
     public void setSeaView(boolean seaView) {
         this.seaView = seaView;
+    }
+    public String getDescription() {
+        return "Pokoj č. " + number + ", lůžek k dispozici: " + beds + ", cena: " + price + " Kč/noc";
     }
 }

@@ -36,4 +36,8 @@ public class Person {
     public void setBorn(LocalDate born) {
         this.born = born;
     }
+
+    public String getDescription() {
+        return "Host: " + name + " " + surname + ", narozen: " + born.toString();
+    }
 }
