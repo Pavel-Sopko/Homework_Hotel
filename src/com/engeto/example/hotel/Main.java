@@ -36,5 +36,17 @@ public class Main {
         System.out.println(pokoj1.getDescription());
         System.out.println(pokoj2.getDescription());
         System.out.println(pokoj3.getDescription());
+
+
+        // doladit, nejde spustit :-D
+        Reservation rezervace = new Reservation(pokoj1, LocalDate.of(2021, 7, 19), LocalDate.of(2021, 7, 26));
+        rezervace.addHost("adela");
+
+        rezervace = new Reservation(pokoj3, LocalDate.of(2021, 9, 1), LocalDate.of(2021, 9, 14));
+        rezervace.addHost("adela");
+        rezervace.addHost("jan");
+
+
+        System.out.println(Reservation.getDescription());
     }
 }
