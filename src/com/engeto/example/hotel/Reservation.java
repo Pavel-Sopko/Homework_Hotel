@@ -56,7 +56,7 @@ public class Reservation {
 
     public static String getDescription() {
 
-
-        return "Rezervace od " + begin + " do " + end + "pro: ";
+        //znova udělat
+        //return "Rezervace od " + begin + " do " + end + "pro: ";
     }
 }
